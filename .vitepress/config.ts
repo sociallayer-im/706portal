@@ -16,15 +16,40 @@ export default defineConfig({
         text: "706社区",
         items: [
           { text: "愿景", link: "/vision" },
-          { text: "如何参与社区和发起项目", link: "/onboarding" },
-          { text: "社交媒体和联系方式", link: "/media" },
-          { text: "城市节点", link: "/city-nodes" },
-          { text: "项目", link: "/projects" },
-          { text: "捐赠", link: "/donate" },
-          { text: "治理机制", link: "/governance" },
-          { text: "工具包", link: "/toolkit" },
-          { text: "常见问题", link: "/faq" },
+          { text: "如何参与", link: "/onboarding" },
+          { text: "社交媒体", link: "/media" },
         ],
+      },
+      {
+        text: "城市节点",
+        items: [{ text: "城市节点", link: "/city-nodes" }],
+      },
+      {
+        text: "项目",
+        items: [{ text: "项目", link: "/projects" }],
+      },
+      {
+        text: "工具包",
+        items: [{ text: "工具包", link: "/toolkit" }],
+      },
+      {
+        text: "治理机制",
+        items: [
+          { text: "治理机制", link: "/governance" },
+          { text: "治理小组", link: "/governance" },
+          { text: "节点大会", link: "/governance" },
+        ],
+      },
+      {
+        text: "财务",
+        items: [
+          { text: "公共基金", link: "/donate" },
+          { text: "捐赠", link: "/donate" },
+        ],
+      },
+      {
+        text: "其他",
+        items: [{ text: "常见问题", link: "/faq" }],
       },
     ],
 

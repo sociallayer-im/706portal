@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,22 +7,29 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "Home", link: "/" },
+      { text: "论坛", link: "https://706.town/" },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "706社区",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "愿景", link: "/vision" },
+          { text: "如何参与社区和发起项目", link: "/onboarding" },
+          { text: "社交媒体和联系方式", link: "/media" },
+          { text: "城市节点", link: "/city-nodes" },
+          { text: "项目", link: "/projects" },
+          { text: "捐赠", link: "/donate" },
+          { text: "治理机制", link: "/governance" },
+          { text: "工具包", link: "/toolkit" },
+          { text: "常见问题", link: "/faq" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    ],
+  },
+});

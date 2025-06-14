@@ -22,7 +22,18 @@ export default defineConfig({
       },
       {
         text: "城市节点",
-        items: [{ text: "城市节点", link: "/city-nodes" }],
+        items: [
+          { text: "城市节点介绍", link: "/city-nodes" },
+          {
+            text: "生活实验室",
+            items: [
+              {
+                text: "上海1.1生活实验室",
+                link: "/city-nodes/living/shanghai-1.1.md",
+              },
+            ],
+          },
+        ],
       },
       {
         text: "项目",

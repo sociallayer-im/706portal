@@ -2,6 +2,9 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+
+import NodeList from './components/NodeList.vue'
+
 import './style.css'
 
 export default {
@@ -12,6 +15,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('NodeList', NodeList)
     // ...
   }
 } satisfies Theme

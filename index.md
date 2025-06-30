@@ -3,43 +3,48 @@
 layout: home
 
 hero:
-  name: "706Portal"
-  text: "706青年社区门户网站"
-  tagline: 发现生活的另一种可能
+  name: "706青年空间"
+  text: "探索生活的更多可能性"
+  tagline: 探索、连接、共创
   actions:
     - theme: brand
       text: 社区手册
-      link: /vision
+      link: /about/
     - theme: alt
       text: 论坛
       link: https://706.town/
 
 features:
-  - title: Vision
-    details: 社区愿景和价值观
-    link: /vision
-  - title: 如何参与社区和发起项目
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /onboarding
-  - title: 社交媒体和联系方式
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /media
+  - title: 关于社区
+    details: 社区愿景、由来、价值观
+    link: /about/
   - title: 城市节点
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /city-nodes
-  - title: 项目
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /projects
+    details: 全球范围内已建立了数十个706城市节点
+    link: /city-nodes/
+  # - title: 如何参与社区和发起项目
+  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #   link: /onboarding
+  - title: 社交媒体和联系方式
+    details: 微信公众号、小红书
+    link: /media
+
+  - title: 社区项目
+    details: 706 社区的项目，包括社区项目、合作项目
+    link: /projects/
+
   - title: 捐赠
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /donate
-  - title: 治理规则
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /governance
+    details: 捐赠信息与公共基金
+    link: /donate/
+
+  - title: 社区治理
+    details: 社区的治理机制、治理小组、节点大会
+    link: /governance/mechanism
+
   - title: 工具包
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /toolkit
+    details: 706 社区的工具包下载
+    link: /toolkit/
+
   - title: 常见问题
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /faq
+    details: 关于 706 社区的常见问题
+    link: /faq/
 ---

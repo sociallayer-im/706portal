@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
+      { text: "主页", link: "/" },
       { text: "论坛", link: "https://706.town/" },
     ],
 
@@ -15,8 +15,8 @@ export default defineConfig({
       {
         text: "706社区",
         items: [
-          { text: "愿景", link: "/vision" },
-          { text: "如何参与", link: "/onboarding" },
+          { text: "关于社区", link: "/about/" },
+          { text: "如何参与", link: "/about/onboarding" },
           { text: "社交媒体", link: "/media" },
         ],
       },
@@ -37,7 +37,12 @@ export default defineConfig({
       },
       {
         text: "项目",
-        items: [{ text: "项目", link: "/projects" }],
+        items: [
+          { text: "项目简介", link: "/projects/" },
+          { text: "城市客厅", link: "/projects/city-living" },
+          { text: "客厅对话", link: "/projects/talk" },
+          { text: "生活实验室", link: "/projects/living-lab" },
+        ],
       },
       {
         text: "工具包",
@@ -46,9 +51,9 @@ export default defineConfig({
       {
         text: "治理机制",
         items: [
-          { text: "治理机制", link: "/governance" },
-          { text: "治理小组", link: "/governance" },
-          { text: "节点大会", link: "/governance" },
+          { text: "治理机制", link: "/governance/mechanism" },
+          { text: "治理小组", link: "/governance/groups" },
+          { text: "节点大会", link: "/governance/meetings" },
         ],
       },
       {

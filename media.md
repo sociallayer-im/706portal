@@ -1,5 +1,5 @@
 ## 微信公众号
-![微信公众号](../public/assets/wechat.png)
+![微信公众号](./public/assets/wechat.png)
 
 ## 小红书
 [706青年空间](https://www.xiaohongshu.com/user/profile/661aa5fd0000000003032610?xsec_token=ABgqKG503wpS6W2UkOlfoNyngpBL0ztI0ajyord0xISFI=&xsec_source=pc_feed)
